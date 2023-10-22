@@ -1,0 +1,23 @@
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Theme Colors */
+.bg-pastel-blue {
+    background-color: #B2DFFC;
+}
+
+.text-pastel-blue {
+    color: #B2DFFC;
+}
+
+.hover\:bg-pastel-blue:hover {
+    background-color: #B2DFFC;
+}
+
+.hover\:text-pastel-blue:hover {
+    color: #B2DFFC;
+}
+
+/* You can expand with other shades/variations if needed */
