@@ -1,0 +1,45 @@
+// src/views/Home.scss
+
+
+.hero-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw; // spans the full viewport width
+    height: 100vh; // spans the full viewport height
+    background: url('../../assets/images/hero-bg.jpg') no-repeat center center;
+    background-size: cover; // ensures the background image covers the entire section
+
+    // Optional: Add a gradient or overlay if you want to darken/lighten the image
+    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/hero-bg.jpg') no-repeat center center;
+
+    color: #fff; // Sets the text color to white for all child elements
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .container .img-fluid {
+        max-width: 400px;
+        /* Adjust based on your needs */
+        margin: 2.5rem;
+        /* Center the image in its container */
+    }
+
+    .hero-small-logo {
+        height: 2.5rem;
+        width: auto;
+        margin-right: 0.5rem;
+    }
+}
