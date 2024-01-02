@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss'; // Importing the SCSS file for the Home component
-import logo from '../../assets/images/logo.png'; // Import the logo image
+import logo from '@assets/images/logo.png'; // Import the logo image
 
 
 function Home() {
@@ -25,8 +25,6 @@ function Home() {
                     <p>
                         Our interdisciplinary approach applies computational linguistics learning methods to the banking industry, focusing on climate change. Detect latent insights on how banks discuss climate-related activities with our novel framework, which employs natural language processing (NLP).
                     </p>
-
-
 
                     <a href="https://doi.org/10.1016/j.eswa.2023.122162" target="_blank" rel="noopener noreferrer" className="btn btn-primary m-2">
                         Read Our Paper

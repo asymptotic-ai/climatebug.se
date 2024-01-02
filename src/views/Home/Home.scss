@@ -1,6 +1,5 @@
 // src/views/Home.scss
 
-
 .hero-section {
     position: absolute;
     top: 0;
@@ -8,7 +7,7 @@
 
     width: 100vw; // spans the full viewport width
     height: 100vh; // spans the full viewport height
-    background: url('../../assets/images/hero-bg.jpg') no-repeat center center;
+    background: url('@assets/images/hero-bg.jpg') no-repeat center center;
     background-size: cover; // ensures the background image covers the entire section
 
     // Optional: Add a gradient or overlay if you want to darken/lighten the image

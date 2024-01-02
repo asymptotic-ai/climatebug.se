@@ -1,7 +1,6 @@
 import React from 'react';
 // import Navbar from './components/Navbar/Navbar';
 import Home from './views/Home/Home';
-import './styles/main.scss'; // Ensure you have the main SCSS file imported for global styles
 
 function App() {
   return (
