@@ -26,12 +26,18 @@ function Home() {
                         Our interdisciplinary approach applies computational linguistics learning methods to the banking industry, focusing on climate change. Detect latent insights on how banks discuss climate-related activities with our novel framework, which employs natural language processing (NLP).
                     </p>
 
-                    <p>
-                        <strong>Coming Soon:</strong> Access to our data, code, and comprehensive insights.
-                    </p>
 
-                    <a href="https://doi.org/10.1016/j.eswa.2023.122162" target="_blank" rel="noopener noreferrer" className="btn btn-primary mb-2">
+
+                    <a href="https://doi.org/10.1016/j.eswa.2023.122162" target="_blank" rel="noopener noreferrer" className="btn btn-primary m-2">
                         Read Our Paper
+                    </a>
+
+                    <a href="https://huggingface.co/datasets/lumilogic/climateBUG-Data" target="_blank" rel="noopener noreferrer" className="btn btn-primary m-2">
+                        Download Our Dataset
+                    </a>
+
+                    <a href="https://huggingface.co/lumilogic/climateBUG-LM" target="_blank" rel="noopener noreferrer" className="btn btn-primary m-2">
+                        Use Our Model
                     </a>
                 </div>
 
